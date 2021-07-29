@@ -1,0 +1,9 @@
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/CMakeFiles/rebuild_cache.dir
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/CMakeFiles/edit_cache.dir
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/CMakeFiles/glad.dir
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/CMakeFiles/LearnOpenGL.dir
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/libraries/glfw/CMakeFiles/rebuild_cache.dir
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/libraries/glfw/CMakeFiles/edit_cache.dir
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/libraries/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/libraries/glfw/src/CMakeFiles/edit_cache.dir
+/home/niklas/Desktop/LearnOpenGL/6_shaders/build/libraries/glfw/src/CMakeFiles/glfw.dir

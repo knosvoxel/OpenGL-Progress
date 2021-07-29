@@ -1,0 +1,1 @@
+/bin/c++ -g -rdynamic CMakeFiles/InitGL.dir/source/main.cpp.o -o InitGL  libraries/glfw/src/libglfw3.a libglad.a -ldl -lrt -lm -ldl -lX11 -lpthread 
