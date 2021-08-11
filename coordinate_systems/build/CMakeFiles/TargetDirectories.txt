@@ -1,0 +1,9 @@
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/CMakeFiles/rebuild_cache.dir
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/CMakeFiles/edit_cache.dir
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/CMakeFiles/glad.dir
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/CMakeFiles/OpenGL-Project-Template.dir
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/lib/glfw/CMakeFiles/rebuild_cache.dir
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/lib/glfw/CMakeFiles/edit_cache.dir
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/lib/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/lib/glfw/src/CMakeFiles/edit_cache.dir
+/home/niklas/Desktop/LearnOpenGL/coordinate_systems/build/lib/glfw/src/CMakeFiles/glfw.dir
