@@ -138,8 +138,8 @@ CMakeFiles/glad.dir/clean:
 # Target rules for target CMakeFiles/OpenGL-Project-Template.dir
 
 # All Build rule for target.
-CMakeFiles/OpenGL-Project-Template.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 CMakeFiles/OpenGL-Project-Template.dir/all: CMakeFiles/glad.dir/all
+CMakeFiles/OpenGL-Project-Template.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL-Project-Template.dir/build.make CMakeFiles/OpenGL-Project-Template.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL-Project-Template.dir/build.make CMakeFiles/OpenGL-Project-Template.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/niklas/Desktop/LearnOpenGL/light_casters_directional/build/CMakeFiles --progress-num=1,2 "Built target OpenGL-Project-Template"

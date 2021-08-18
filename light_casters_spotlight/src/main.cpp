@@ -214,12 +214,12 @@ float vertices[] = {
         lightingShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
 
         lightingShader.setFloat("light.constant",   1.0f);
-        lightingShader.setFloat("light.linear",     0.09f);
-        lightingShader.setFloat("light.quadratic",  0.032f);
+        lightingShader.setFloat("light.linear",     0.045f);
+        lightingShader.setFloat("light.quadratic",  0.0075f);
 
         lightingShader.setVec3("light.position", camera.Position);
         lightingShader.setVec3("light.direction", camera.Front);
-        lightingShader.setFloat("light.cutOff", glm::cos(glm::radians(12.5f)));
+        lightingShader.setFloat("light.cutOff", glm::cos(glm::radians(10.5f)));
         lightingShader.setFloat("light.outerCutOff", glm::cos(glm::radians(17.5)));
 
         // material properties
