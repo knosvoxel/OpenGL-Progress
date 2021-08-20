@@ -363,3 +363,5 @@ MigrationBackup/
 
 # assimp
 Assimp/lib/assimp/
+LearnOpenGL/Assimp/lib/assimp/
+/Assimp/lib/assimp/
