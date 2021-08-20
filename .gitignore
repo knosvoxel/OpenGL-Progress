@@ -362,4 +362,4 @@ MigrationBackup/
 .ionide/
 
 # assimp
-Assimp/lib/assimp
+Assimp/lib/assimp/
