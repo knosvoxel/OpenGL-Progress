@@ -1,4 +1,4 @@
-# Install script for directory: /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src
+# Install script for directory: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

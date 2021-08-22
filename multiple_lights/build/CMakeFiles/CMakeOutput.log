@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/3.20.5/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/3.20.5/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /bin/c++ 
@@ -23,15 +23,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/3.20.5/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/3.20.5/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d427/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d427.dir/build.make CMakeFiles/cmTC_3d427.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o
-/bin/x86_64-redhat-linux-gcc-11   -v -o CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d00b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d00b6.dir/build.make CMakeFiles/cmTC_d00b6.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o
+/bin/x86_64-redhat-linux-gcc-11   -v -o CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/bin/x86_64-redhat-linux-gcc-11
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -41,8 +41,8 @@ Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortra
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d427.dir/'
- /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3d427.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccCIM8xj.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d00b6.dir/'
+ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d00b6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccC6mKlE.s
 GNU C17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)
 	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
 
@@ -60,15 +60,15 @@ GNU C17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: d9978e1d525f02eccc63983c4161253e
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d427.dir/'
- as -v --64 -o CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o /tmp/ccCIM8xj.s
-GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-4.fc34
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d00b6.dir/'
+ as -v --64 -o CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o /tmp/ccC6mKlE.s
+GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-5.fc34
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_3d427
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d427.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11  -v -rdynamic CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o -o cmTC_3d427 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_d00b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00b6.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11  -v -rdynamic CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o -o cmTC_d00b6 
 Using built-in specs.
 COLLECT_GCC=/bin/x86_64-redhat-linux-gcc-11
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
@@ -81,10 +81,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3d427' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d427.'
- /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYB3Jub.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3d427 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3d427' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d427.'
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d00b6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d00b6.'
+ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDsL8wW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d00b6 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d00b6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d00b6.'
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -103,12 +103,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d427/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d427.dir/build.make CMakeFiles/cmTC_3d427.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/bin/x86_64-redhat-linux-gcc-11   -v -o CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d00b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d00b6.dir/build.make CMakeFiles/cmTC_d00b6.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/x86_64-redhat-linux-gcc-11   -v -o CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/x86_64-redhat-linux-gcc-11]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -118,8 +118,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d427.dir/']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3d427.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccCIM8xj.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d00b6.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d00b6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccC6mKlE.s]
   ignore line: [GNU C17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1)  GMP version 6.2.0  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
   ignore line: []
@@ -137,15 +137,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d9978e1d525f02eccc63983c4161253e]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d427.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o /tmp/ccCIM8xj.s]
-  ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-4.fc34]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d00b6.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o /tmp/ccC6mKlE.s]
+  ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-5.fc34]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_3d427]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d427.dir/link.txt --verbose=1]
-  ignore line: [/bin/x86_64-redhat-linux-gcc-11  -v -rdynamic CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o -o cmTC_3d427 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_d00b6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00b6.dir/link.txt --verbose=1]
+  ignore line: [/bin/x86_64-redhat-linux-gcc-11  -v -rdynamic CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o -o cmTC_d00b6 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/x86_64-redhat-linux-gcc-11]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
@@ -158,13 +158,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3d427' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d427.']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYB3Jub.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3d427 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d00b6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d00b6.']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDsL8wW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d00b6 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccYB3Jub.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDsL8wW.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -180,7 +180,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3d427] ==> ignore
+    arg [cmTC_d00b6] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
     arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
     arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
@@ -189,7 +189,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
-    arg [CMakeFiles/cmTC_3d427.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d00b6.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -218,12 +218,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad316/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad316.dir/build.make CMakeFiles/cmTC_ad316.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o
-/bin/c++   -v -o CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4156d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4156d.dir/build.make CMakeFiles/cmTC_4156d.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o
+/bin/c++   -v -o CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -233,8 +233,8 @@ Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortra
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad316.dir/'
- /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ad316.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cchzOSua.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4156d.dir/'
+ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4156d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccFG20Ff.s
 GNU C++17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)
 	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
 
@@ -255,15 +255,15 @@ GNU C++17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: ee1a2f208dd48c6a5d24bdcd31126e66
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad316.dir/'
- as -v --64 -o CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o /tmp/cchzOSua.s
-GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-4.fc34
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4156d.dir/'
+ as -v --64 -o CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFG20Ff.s
+GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-5.fc34
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_ad316
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad316.dir/link.txt --verbose=1
-/bin/c++  -v -rdynamic CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ad316 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_4156d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4156d.dir/link.txt --verbose=1
+/bin/c++  -v -rdynamic CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4156d 
 Using built-in specs.
 COLLECT_GCC=/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
@@ -276,10 +276,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ad316' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad316.'
- /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm5Apk1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ad316 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ad316' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad316.'
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4156d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4156d.'
+ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT9GTk7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4156d /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4156d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4156d.'
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -304,12 +304,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad316/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad316.dir/build.make CMakeFiles/cmTC_ad316.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/bin/c++   -v -o CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4156d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4156d.dir/build.make CMakeFiles/cmTC_4156d.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bin/c++   -v -o CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -319,8 +319,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad316.dir/']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ad316.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cchzOSua.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4156d.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4156d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccFG20Ff.s]
   ignore line: [GNU C++17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1)  GMP version 6.2.0  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
   ignore line: []
@@ -341,15 +341,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: ee1a2f208dd48c6a5d24bdcd31126e66]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad316.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o /tmp/cchzOSua.s]
-  ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-4.fc34]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4156d.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFG20Ff.s]
+  ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-5.fc34]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_ad316]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad316.dir/link.txt --verbose=1]
-  ignore line: [/bin/c++  -v -rdynamic CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ad316 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_4156d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4156d.dir/link.txt --verbose=1]
+  ignore line: [/bin/c++  -v -rdynamic CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4156d ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
@@ -362,13 +362,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ad316' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad316.']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm5Apk1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ad316 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4156d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4156d.']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT9GTk7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4156d /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccm5Apk1.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccT9GTk7.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -384,7 +384,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ad316] ==> ignore
+    arg [cmTC_4156d] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
     arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
     arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
@@ -393,7 +393,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
-    arg [CMakeFiles/cmTC_ad316.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4156d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -418,114 +418,114 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85271/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85271.dir/build.make CMakeFiles/cmTC_85271.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_85271.dir/CheckIncludeFile.c.o
-/bin/x86_64-redhat-linux-gcc-11    -o CMakeFiles/cmTC_85271.dir/CheckIncludeFile.c.o -c /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_85271
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85271.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11 -rdynamic CMakeFiles/cmTC_85271.dir/CheckIncludeFile.c.o -o cmTC_85271 
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74cbf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74cbf.dir/build.make CMakeFiles/cmTC_74cbf.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74cbf.dir/CheckIncludeFile.c.o
+/bin/x86_64-redhat-linux-gcc-11    -o CMakeFiles/cmTC_74cbf.dir/CheckIncludeFile.c.o -c /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_74cbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74cbf.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11 -rdynamic CMakeFiles/cmTC_74cbf.dir/CheckIncludeFile.c.o -o cmTC_74cbf 
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9719b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9719b.dir/build.make CMakeFiles/cmTC_9719b.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9719b.dir/CheckFunctionExists.c.o
-/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_9719b.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9719b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9719b.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_9719b.dir/CheckFunctionExists.c.o -o cmTC_9719b  -lpthread 
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a2d1a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2d1a.dir/build.make CMakeFiles/cmTC_a2d1a.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2d1a.dir/CheckFunctionExists.c.o
+/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_a2d1a.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a2d1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2d1a.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_a2d1a.dir/CheckFunctionExists.c.o -o cmTC_a2d1a  -lpthread 
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eed23/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eed23.dir/build.make CMakeFiles/cmTC_eed23.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eed23.dir/CheckFunctionExists.c.o
-/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_eed23.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_eed23
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eed23.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_eed23.dir/CheckFunctionExists.c.o -o cmTC_eed23  /usr/lib64/libX11.so /usr/lib64/libXext.so 
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_137ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_137ff.dir/build.make CMakeFiles/cmTC_137ff.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_137ff.dir/CheckFunctionExists.c.o
+/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_137ff.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_137ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_137ff.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_137ff.dir/CheckFunctionExists.c.o -o cmTC_137ff  /usr/lib64/libX11.so /usr/lib64/libXext.so 
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05aae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05aae.dir/build.make CMakeFiles/cmTC_05aae.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_05aae.dir/CheckFunctionExists.c.o
-/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_05aae.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_05aae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05aae.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_05aae.dir/CheckFunctionExists.c.o -o cmTC_05aae 
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7dd8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7dd8e.dir/build.make CMakeFiles/cmTC_7dd8e.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7dd8e.dir/CheckFunctionExists.c.o
+/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_7dd8e.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7dd8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dd8e.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_7dd8e.dir/CheckFunctionExists.c.o -o cmTC_7dd8e 
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85335/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85335.dir/build.make CMakeFiles/cmTC_85335.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_85335.dir/CheckFunctionExists.c.o
-/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_85335.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_85335
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85335.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_85335.dir/CheckFunctionExists.c.o -o cmTC_85335 
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e366/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e366.dir/build.make CMakeFiles/cmTC_2e366.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e366.dir/CheckFunctionExists.c.o
+/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_2e366.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e366
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e366.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_2e366.dir/CheckFunctionExists.c.o -o cmTC_2e366 
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80eaf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80eaf.dir/build.make CMakeFiles/cmTC_80eaf.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_80eaf.dir/CheckFunctionExists.c.o
-/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_80eaf.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_80eaf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80eaf.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_80eaf.dir/CheckFunctionExists.c.o -o cmTC_80eaf 
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ade4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ade4.dir/build.make CMakeFiles/cmTC_4ade4.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ade4.dir/CheckFunctionExists.c.o
+/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_4ade4.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4ade4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ade4.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_4ade4.dir/CheckFunctionExists.c.o -o cmTC_4ade4 
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e81f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e81f.dir/build.make CMakeFiles/cmTC_4e81f.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4e81f.dir/CheckFunctionExists.c.o
-/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_4e81f.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4e81f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e81f.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_4e81f.dir/CheckFunctionExists.c.o -o cmTC_4e81f 
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0bc9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0bc9b.dir/build.make CMakeFiles/cmTC_0bc9b.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bc9b.dir/CheckFunctionExists.c.o
+/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_0bc9b.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0bc9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bc9b.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_0bc9b.dir/CheckFunctionExists.c.o -o cmTC_0bc9b 
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp
+Change Dir: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bf58b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf58b.dir/build.make CMakeFiles/cmTC_bf58b.dir/build
-gmake[1]: Entering directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf58b.dir/CheckFunctionExists.c.o
-/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_bf58b.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bf58b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf58b.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -rdynamic CMakeFiles/cmTC_bf58b.dir/CheckFunctionExists.c.o -o cmTC_bf58b  -lICE 
-gmake[1]: Leaving directory '/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_873c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_873c9.dir/build.make CMakeFiles/cmTC_873c9.dir/build
+gmake[1]: Entering directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_873c9.dir/CheckFunctionExists.c.o
+/bin/x86_64-redhat-linux-gcc-11   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_873c9.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_873c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_873c9.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc-11  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -rdynamic CMakeFiles/cmTC_873c9.dir/CheckFunctionExists.c.o -o cmTC_873c9  -lICE 
+gmake[1]: Leaving directory '/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/CMakeTmp'
 
 
 

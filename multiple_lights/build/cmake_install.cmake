@@ -1,4 +1,4 @@
-# Install script for directory: /home/niklas/Desktop/LearnOpenGL/multiple_lights
+# Install script for directory: /home/niklas/Desktop/OpenGL-Progress/multiple_lights
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/lib/glfw/cmake_install.cmake")
+  include("/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

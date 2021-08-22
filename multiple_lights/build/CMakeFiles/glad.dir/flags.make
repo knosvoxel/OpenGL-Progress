@@ -4,7 +4,7 @@
 # compile C with /bin/x86_64-redhat-linux-gcc-11
 C_DEFINES = 
 
-C_INCLUDES = -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/include
+C_INCLUDES = -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/include
 
 C_FLAGS = -g
 

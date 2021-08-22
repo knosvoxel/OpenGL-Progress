@@ -4,7 +4,7 @@
 # compile CXX with /bin/c++
 CXX_DEFINES = -DGLFW_INCLUDE_NONE
 
-CXX_INCLUDES = -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/src -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/include -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/include -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/include -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/res
+CXX_INCLUDES = -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/src -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/include -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/include -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/include -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/res
 
 CXX_FLAGS = -g -std=gnu++11
 

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/niklas/Desktop/LearnOpenGL/multiple_lights
+CMAKE_SOURCE_DIR = /home/niklas/Desktop/OpenGL-Progress/multiple_lights
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/niklas/Desktop/LearnOpenGL/multiple_lights/build
+CMAKE_BINARY_DIR = /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -115,14 +115,14 @@ lib/glfw/src/clean: lib/glfw/src/CMakeFiles/glfw.dir/clean
 CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles --progress-num=3,4 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles --progress-num=3,4 "Built target glad"
 .PHONY : CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles 0
 .PHONY : CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -142,14 +142,14 @@ CMakeFiles/OpenGL-Project-Template.dir/all: CMakeFiles/glad.dir/all
 CMakeFiles/OpenGL-Project-Template.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL-Project-Template.dir/build.make CMakeFiles/OpenGL-Project-Template.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL-Project-Template.dir/build.make CMakeFiles/OpenGL-Project-Template.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles --progress-num=1,2 "Built target OpenGL-Project-Template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles --progress-num=1,2 "Built target OpenGL-Project-Template"
 .PHONY : CMakeFiles/OpenGL-Project-Template.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenGL-Project-Template.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL-Project-Template.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles 0
 .PHONY : CMakeFiles/OpenGL-Project-Template.dir/rule
 
 # Convenience name for target.
@@ -168,14 +168,14 @@ CMakeFiles/OpenGL-Project-Template.dir/clean:
 lib/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target glfw"
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles 0
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.

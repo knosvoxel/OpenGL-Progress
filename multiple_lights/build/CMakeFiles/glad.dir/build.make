@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/niklas/Desktop/LearnOpenGL/multiple_lights
+CMAKE_SOURCE_DIR = /home/niklas/Desktop/OpenGL-Progress/multiple_lights
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/niklas/Desktop/LearnOpenGL/multiple_lights/build
+CMAKE_BINARY_DIR = /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/glad.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/glad.dir/flags.make
 CMakeFiles/glad.dir/lib/glad/src/glad.c.o: CMakeFiles/glad.dir/flags.make
 CMakeFiles/glad.dir/lib/glad/src/glad.c.o: ../lib/glad/src/glad.c
 CMakeFiles/glad.dir/lib/glad/src/glad.c.o: CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/lib/glad/src/glad.c.o"
-	/bin/x86_64-redhat-linux-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glad.dir/lib/glad/src/glad.c.o -MF CMakeFiles/glad.dir/lib/glad/src/glad.c.o.d -o CMakeFiles/glad.dir/lib/glad/src/glad.c.o -c /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/lib/glad/src/glad.c.o"
+	/bin/x86_64-redhat-linux-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glad.dir/lib/glad/src/glad.c.o -MF CMakeFiles/glad.dir/lib/glad/src/glad.c.o.d -o CMakeFiles/glad.dir/lib/glad/src/glad.c.o -c /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/src/glad.c
 
 CMakeFiles/glad.dir/lib/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glad.dir/lib/glad/src/glad.c.i"
-	/bin/x86_64-redhat-linux-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/src/glad.c > CMakeFiles/glad.dir/lib/glad/src/glad.c.i
+	/bin/x86_64-redhat-linux-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/src/glad.c > CMakeFiles/glad.dir/lib/glad/src/glad.c.i
 
 CMakeFiles/glad.dir/lib/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glad.dir/lib/glad/src/glad.c.s"
-	/bin/x86_64-redhat-linux-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/src/glad.c -o CMakeFiles/glad.dir/lib/glad/src/glad.c.s
+	/bin/x86_64-redhat-linux-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/src/glad.c -o CMakeFiles/glad.dir/lib/glad/src/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
@@ -93,7 +93,7 @@ glad_EXTERNAL_OBJECTS =
 libglad.a: CMakeFiles/glad.dir/lib/glad/src/glad.c.o
 libglad.a: CMakeFiles/glad.dir/build.make
 libglad.a: CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/glad.dir/clean:
 .PHONY : CMakeFiles/glad.dir/clean
 
 CMakeFiles/glad.dir/depend:
-	cd /home/niklas/Desktop/LearnOpenGL/multiple_lights/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niklas/Desktop/LearnOpenGL/multiple_lights /home/niklas/Desktop/LearnOpenGL/multiple_lights /home/niklas/Desktop/LearnOpenGL/multiple_lights/build /home/niklas/Desktop/LearnOpenGL/multiple_lights/build /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niklas/Desktop/OpenGL-Progress/multiple_lights /home/niklas/Desktop/OpenGL-Progress/multiple_lights /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/glad.dir/depend
 

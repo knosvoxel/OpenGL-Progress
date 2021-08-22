@@ -1,4 +1,4 @@
-# Install script for directory: /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw
+# Install script for directory: /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/lib/glfw/src/cmake_install.cmake")
+  include("/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/src/cmake_install.cmake")
 
 endif()
 

@@ -4,7 +4,7 @@
 # compile C with /bin/x86_64-redhat-linux-gcc-11
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/include -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src -I/home/niklas/Desktop/LearnOpenGL/multiple_lights/build/lib/glfw/src
+C_INCLUDES = -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/include -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src -I/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/src
 
 C_FLAGS = -g -fPIC -Wall -std=gnu99
 

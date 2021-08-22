@@ -1,9 +1,9 @@
 lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/glx_context.c \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/glx_context.c \
  /usr/include/stdc-predef.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/internal.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/build/lib/glfw/src/glfw_config.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/../include/GLFW/glfw3.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/internal.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/src/glfw_config.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/../include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -14,7 +14,7 @@ lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
  /usr/include/bits/stdint-uintn.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/x11_platform.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/x11_platform.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
@@ -60,7 +60,7 @@ lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: \
  /usr/include/X11/extensions/XInput2.h /usr/include/X11/extensions/XI2.h \
  /usr/include/X11/extensions/Xge.h /usr/include/X11/extensions/Xfixes.h \
  /usr/include/X11/extensions/xfixeswire.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/posix_thread.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/posix_thread.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
  /usr/include/time.h /usr/include/bits/time.h \
@@ -69,12 +69,12 @@ lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/posix_time.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/xkb_unicode.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/glx_context.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/egl_context.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/osmesa_context.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/src/linux_joystick.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/posix_time.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/xkb_unicode.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/glx_context.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/egl_context.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/osmesa_context.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/src/linux_joystick.h \
  /usr/include/linux/input.h /usr/include/sys/time.h \
  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
  /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \

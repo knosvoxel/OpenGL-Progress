@@ -1,5 +1,5 @@
 CMakeFiles/glad.dir/lib/glad/src/glad.c.o: \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/src/glad.c \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/src/glad.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -31,8 +31,8 @@ CMakeFiles/glad.dir/lib/glad/src/glad.c.o: \
  /usr/include/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/include/glad/glad.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/include/KHR/khrplatform.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/include/glad/glad.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/dlfcn.h \

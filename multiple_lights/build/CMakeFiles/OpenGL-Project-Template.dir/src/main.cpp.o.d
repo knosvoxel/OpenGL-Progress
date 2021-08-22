@@ -1,8 +1,8 @@
 CMakeFiles/OpenGL-Project-Template.dir/src/main.cpp.o: \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/src/main.cpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/include/glad/glad.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glad/include/KHR/khrplatform.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/include/glad/glad.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -12,9 +12,9 @@ CMakeFiles/OpenGL-Project-Template.dir/src/main.cpp.o: \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
  /usr/include/bits/stdint-uintn.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/lib/glfw/include/GLFW/glfw3.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/lib/glfw/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/stb_image/stb_image.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/stb_image/stb_image.h \
  /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
@@ -62,79 +62,79 @@ CMakeFiles/OpenGL-Project-Template.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/mmintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/mm_malloc.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/glm.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/_fixes.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/glm.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/_fixes.hpp \
  /usr/include/c++/11/climits /usr/include/c++/11/cfloat \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
  /usr/include/c++/11/limits /usr/include/c++/11/cassert \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/fwd.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_int.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/setup.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/fwd.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_int.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/setup.hpp \
  /usr/include/c++/11/cstddef \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../simd/platform.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../simd/platform.h \
  /usr/include/c++/11/type_traits /usr/include/c++/11/cstdint \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_float.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_vec.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/precision.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_mat.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/vec2.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_vec2.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_vec2.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/vec3.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_vec3.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_vec3.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/vec4.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_vec4.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_vec4.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_vec4_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/mat2x2.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_mat2x2.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_mat2x2.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_matrix.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../mat2x3.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat2x3.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat2x3.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../mat2x4.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat2x4.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat2x4.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../mat3x2.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat3x2.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat3x2.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../mat3x3.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat3x3.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat3x3.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../mat3x4.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat3x4.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat3x4.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../mat4x2.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat4x2.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat4x2.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../mat4x3.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat4x3.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat4x3.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../mat4x4.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat4x4.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat4x4.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_mat4x4_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_matrix.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../geometric.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_geometric.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_geometric.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_exponential.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_vec1.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/type_vec1.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_exponential.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_vector_relational.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_vector_relational.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_vector_relational_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/_vectorize.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_exponential_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/../simd/exponential.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_common.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/_fixes.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_common.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_common_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/../simd/common.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_float.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_vec.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/precision.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_mat.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/vec2.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_vec2.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_vec2.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/vec3.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_vec3.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_vec3.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/vec4.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_vec4.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_vec4.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_vec4_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/mat2x2.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_mat2x2.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_mat2x2.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_matrix.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../mat2x3.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat2x3.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat2x3.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../mat2x4.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat2x4.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat2x4.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../mat3x2.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat3x2.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat3x2.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../mat3x3.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat3x3.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat3x3.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../mat3x4.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat3x4.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat3x4.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../mat4x2.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat4x2.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat4x2.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../mat4x3.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat4x3.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat4x3.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../mat4x4.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat4x4.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat4x4.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_mat4x4_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_matrix.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../geometric.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_geometric.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_geometric.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_exponential.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_vec1.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/type_vec1.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_exponential.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_vector_relational.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_vector_relational.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_vector_relational_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/_vectorize.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_exponential_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/../simd/exponential.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_common.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/_fixes.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_common.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_common_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/../simd/common.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/immintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/ia32intrin.h \
@@ -214,40 +214,40 @@ CMakeFiles/OpenGL-Project-Template.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/keylockerintrin.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/func_geometric_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../detail/../simd/geometric.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_matrix_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../simd/matrix.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/trigonometric.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_trigonometric.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_trigonometric.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_trigonometric_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/exponential.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/common.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/packing.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_packing.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_packing.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_half.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/type_half.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_packing_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/matrix.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/vector_relational.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/integer.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_integer.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_integer.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/func_integer_simd.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/detail/../simd/integer.h \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/matrix_transform.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/../gtc/constants.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/../gtc/constants.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/matrix_transform.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/type_ptr.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/../gtc/quaternion.hpp \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/../gtc/quaternion.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/../gtc/quaternion_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/func_geometric_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../detail/../simd/geometric.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_matrix_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../simd/matrix.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/trigonometric.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_trigonometric.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_trigonometric.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_trigonometric_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/exponential.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/common.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/packing.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_packing.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_packing.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_half.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/type_half.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_packing_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/matrix.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/vector_relational.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/integer.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_integer.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_integer.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/func_integer_simd.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/detail/../simd/integer.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/matrix_transform.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/../gtc/constants.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/../gtc/constants.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/matrix_transform.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/type_ptr.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/../gtc/quaternion.hpp \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/../gtc/quaternion.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/../gtc/quaternion_simd.inl \
  /usr/include/c++/11/cstring \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/glm/gtc/type_ptr.inl \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/learnopengl/shader.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/glm/gtc/type_ptr.inl \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/learnopengl/shader.h \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
@@ -329,7 +329,7 @@ CMakeFiles/OpenGL-Project-Template.dir/src/main.cpp.o: \
  /usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/iostream \
- /home/niklas/Desktop/LearnOpenGL/multiple_lights/include/learnopengl/camera.h \
+ /home/niklas/Desktop/OpenGL-Progress/multiple_lights/include/learnopengl/camera.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
