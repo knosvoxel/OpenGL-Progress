@@ -66,6 +66,9 @@ int main()
     // tell GLFW to capture our mouse
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
+    // tell stb_image.h to flip loaded textures on the y-axis (before loading the model)
+    stbi_set_flip_vertically_on_load(true);
+
     // glad: load all OpenGL function pointers
     // ---------------------------------------
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
