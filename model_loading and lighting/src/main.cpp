@@ -10,7 +10,15 @@
 #include <learnopengl/shader.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
+
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_glfw.h"
+#include "imgui/imgui_impl_opengl3.h"
+#include <stdio.h>
 //#include <cubeLight.h>
+
+//#include <imgui/backends/imgui_impl_opengl3.h>
+//#include <imgui/backends/imgui_impl_opengl3_loader.h>
 
 #include <iostream>
 
@@ -82,6 +90,8 @@ int main()
     // configure global opengl state
     // -----------------------------
     glEnable(GL_DEPTH_TEST);
+
+    IMGUI_CHECKVERSION();
 
     // build and compile our shader zprogram
     // ------------------------------------
