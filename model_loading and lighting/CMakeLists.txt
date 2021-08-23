@@ -7,10 +7,11 @@ set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 set(LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib")
 set(INCL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/include")
 set(RES_DIR "${CMAKE_CURRENT_SOURCE_DIR}/res")
-set(SOURCES "${SRC_DIR}/main.cpp")
+set(SOURCES "${SRC_DIR}/main.cpp ${SRC_DIR}/imgui.cpp")
 
 # Executable definition and properties
-add_executable(${PROJECT_NAME} ${SOURCES})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+add_executable(${PROJECT_NAME} src/main.cpp src/imgui.cpp src/imgui_widgets.cpp src/imgui_tables.cpp src/imgui_impl_opengl3.cpp src/imgui_impl_glfw.cpp src/imgui_draw.cpp src/imgui_demo.cpp)
 target_include_directories(${PROJECT_NAME} PRIVATE "${SRC_DIR}")
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
 

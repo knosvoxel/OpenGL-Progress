@@ -17,12 +17,14 @@
 			"ADD_DEFINITIONS",
 			"add_compile_definitions",
 			"INCLUDE_DIRECTORIES",
+			"include_directories",
 			"TARGET_INCLUDE_DIRECTORIES"
 		],
 		"files" : 
 		[
 			"lib/assimp/code/CMakeLists.txt",
-			"lib/assimp/CMakeLists.txt"
+			"lib/assimp/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -93,6 +95,15 @@
 				"parent" : 5
 			},
 			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 12
+			},
+			{
 				"command" : 5,
 				"file" : 0,
 				"line" : 1028,
@@ -117,7 +128,7 @@
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 7,
 				"file" : 0,
 				"line" : 1108,
 				"parent" : 0
@@ -189,35 +200,39 @@
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/."
 				},
 				{
-					"backtrace" : 12,
-					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib/rapidjson/include"
-				},
-				{
 					"backtrace" : 13,
-					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting"
 				},
 				{
 					"backtrace" : 14,
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib"
+				},
+				{
+					"backtrace" : 16,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib/unzip"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 17,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/contrib/irrXML"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 17,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib/openddlparser/include"
 				},
 				{
-					"backtrace" : 16,
+					"backtrace" : 18,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../include"
 				},
 				{
-					"backtrace" : 16,
+					"backtrace" : 18,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/build/lib/assimp/code/../include"
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 19,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/.."
 				}
 			],
@@ -496,35 +511,39 @@
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/."
 				},
 				{
-					"backtrace" : 12,
-					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib/rapidjson/include"
-				},
-				{
 					"backtrace" : 13,
-					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting"
 				},
 				{
 					"backtrace" : 14,
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib"
+				},
+				{
+					"backtrace" : 16,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib/unzip"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 17,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/contrib/irrXML"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 17,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../contrib/openddlparser/include"
 				},
 				{
-					"backtrace" : 16,
+					"backtrace" : 18,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/../include"
 				},
 				{
-					"backtrace" : 16,
+					"backtrace" : 18,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/build/lib/assimp/code/../include"
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 19,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/code/.."
 				}
 			],

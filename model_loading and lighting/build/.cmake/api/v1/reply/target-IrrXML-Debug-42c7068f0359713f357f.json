@@ -14,12 +14,14 @@
 			"add_library",
 			"install",
 			"ADD_DEFINITIONS",
-			"INCLUDE_DIRECTORIES"
+			"INCLUDE_DIRECTORIES",
+			"include_directories"
 		],
 		"files" : 
 		[
 			"lib/assimp/contrib/irrXML/CMakeLists.txt",
-			"lib/assimp/CMakeLists.txt"
+			"lib/assimp/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -58,6 +60,15 @@
 				"file" : 1,
 				"line" : 219,
 				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 7
 			}
 		]
 	},
@@ -102,6 +113,10 @@
 				{
 					"backtrace" : 6,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/assimp/."
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting"
 				}
 			],
 			"language" : "CXX",

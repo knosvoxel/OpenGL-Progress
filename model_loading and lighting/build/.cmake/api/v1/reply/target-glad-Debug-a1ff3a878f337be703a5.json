@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libglad.a"
+			"path" : "libgladd.a"
 		}
 	],
 	"backtrace" : 1,
@@ -12,6 +12,7 @@
 		"commands" : 
 		[
 			"add_library",
+			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
@@ -26,13 +27,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 30,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 31,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 32,
 				"parent" : 0
 			}
 		]
@@ -50,6 +57,10 @@
 			[
 				{
 					"backtrace" : 2,
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting"
+				},
+				{
+					"backtrace" : 3,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/glad/include"
 				}
 			],
@@ -62,7 +73,7 @@
 	],
 	"id" : "glad::@6890427a1f51a3e7e1df",
 	"name" : "glad",
-	"nameOnDisk" : "libglad.a",
+	"nameOnDisk" : "libgladd.a",
 	"paths" : 
 	{
 		"build" : ".",

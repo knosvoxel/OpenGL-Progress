@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/glfw/src/libglfw3.a"
+			"path" : "lib/glfw/src/libglfw3d.a"
 		}
 	],
 	"backtrace" : 1,
@@ -14,12 +14,14 @@
 			"add_library",
 			"target_compile_options",
 			"target_compile_definitions",
+			"include_directories",
 			"target_include_directories",
 			"set_target_properties"
 		],
 		"files" : 
 		[
-			"lib/glfw/src/CMakeLists.txt"
+			"lib/glfw/src/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -45,19 +47,28 @@
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
 				"command" : 3,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
 				"file" : 0,
 				"line" : 103,
 				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 4,
 				"file" : 0,
 				"line" : 106,
 				"parent" : 0
 			},
 			{
-				"command" : 4,
+				"command" : 5,
 				"file" : 0,
 				"line" : 93,
 				"parent" : 0
@@ -93,15 +104,19 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/glfw/include"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/glfw/src"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/build/lib/glfw/src"
 				}
 			],
@@ -110,7 +125,7 @@
 			{
 				"backtraces" : 
 				[
-					6
+					8
 				],
 				"standard" : "99"
 			},
@@ -150,15 +165,19 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/glfw/include"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/lib/glfw/src"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"path" : "/home/niklas/Desktop/OpenGL-Progress/model_loading and lighting/build/lib/glfw/src"
 				}
 			],
@@ -167,7 +186,7 @@
 			{
 				"backtraces" : 
 				[
-					6
+					8
 				],
 				"standard" : "99"
 			},
@@ -190,7 +209,7 @@
 	},
 	"id" : "glfw::@17f284a5fc0809a54549",
 	"name" : "glfw",
-	"nameOnDisk" : "libglfw3.a",
+	"nameOnDisk" : "libglfw3d.a",
 	"paths" : 
 	{
 		"build" : "lib/glfw/src",
