@@ -45,6 +45,7 @@ struct SpotLight {
 uniform Material material;
 uniform DirLight dirLight;
 #define NR_POINT_LIGHTS 4
+uniform int lightAmount; 
 uniform PointLight pointLights[NR_POINT_LIGHTS];
 uniform SpotLight spotLight;
 

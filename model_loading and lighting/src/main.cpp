@@ -10,6 +10,7 @@
 #include <learnopengl/shader.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
+//#include <cubeLight.h>
 
 #include <iostream>
 
@@ -65,6 +66,7 @@ int main()
 
     // tell GLFW to capture our mouse
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    //glfwSwapInterval(0);
 
     // tell stb_image.h to flip loaded textures on the y-axis (before loading the model)
     stbi_set_flip_vertically_on_load(true);
@@ -153,15 +155,10 @@ float vertices[] = {
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float),(void*)0);
     glEnableVertexAttribArray(0);
 
-    // loading container texture
-    unsigned int diffuseMap = loadTexture("../res/textures/container2.png");
-
-    // loading container specular texture
-    unsigned int specularMap = loadTexture("../res/textures/container2_specular.png");
-
-    lightingShader.use();
-    lightingShader.setInt("material.diffuse", 0);
-    lightingShader.setInt("material.specular", 1);
+    //static float framesPerSeconds = 0.0f;
+    //static float lastTime = 0.0f;
+    //CubeLights cubeLights;
+    //cubeLights.addLight(pointLightPositions[0]);
 
     // render loop
     // -----------
@@ -172,6 +169,16 @@ float vertices[] = {
         float currentFrame = glfwGetTime();
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
+
+        //++framesPerSeconds;
+
+        /*if(currentFrame - lastTime > 1.0f)
+        {
+            lastTime = currentFrame;
+            std::cout << int(framesPerSeconds) << std::endl;
+
+            framesPerSeconds = 0;
+        }*/
 
         // input
         // -----
@@ -223,6 +230,7 @@ float vertices[] = {
         lightingShader.setFloat("pointLights[3].constant", 1.0f);
         lightingShader.setFloat("pointLights[3].linear", 0.09);
         lightingShader.setFloat("pointLights[3].quadratic", 0.032);
+        //cubeLights.setLightValues(0, lightingShader);
         // spotLight
         lightingShader.setVec3("spotLight.position", camera.Position);
         lightingShader.setVec3("spotLight.direction", camera.Front);
@@ -268,6 +276,8 @@ float vertices[] = {
 
             glDrawArrays(GL_TRIANGLES, 0, 36);
         }
+
+        //cubeLights.Draw(lightCubeShader);
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);

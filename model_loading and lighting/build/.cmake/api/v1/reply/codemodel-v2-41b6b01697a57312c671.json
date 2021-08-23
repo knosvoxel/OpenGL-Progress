@@ -231,7 +231,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OpenGL-Project-Template::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGL-Project-Template-Debug-b6cf74883b7449a8d470.json",
+					"jsonFile" : "target-OpenGL-Project-Template-Debug-0630ec0d1c7858f38919.json",
 					"name" : "OpenGL-Project-Template",
 					"projectIndex" : 0
 				},
@@ -252,14 +252,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Debug-72dc0e1340b8380652f6.json",
+					"jsonFile" : "target-glad-Debug-fb35e4e1f6f8ab6eb2d5.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@17f284a5fc0809a54549",
-					"jsonFile" : "target-glfw-Debug-a8c9dd1efa8816f0e49f.json",
+					"jsonFile" : "target-glfw-Debug-9f4b8d5d47e662677a4f.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
