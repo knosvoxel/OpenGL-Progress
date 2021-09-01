@@ -110,23 +110,23 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/src"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/lib/glfw/include"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/lib/glfw/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/lib/glad/include"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/lib/glad/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/include"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/res"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/res"
 				}
 			],
 			"language" : "CXX",
@@ -147,12 +147,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "glad::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "glfw::@17f284a5fc0809a54549"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glad::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "OpenGL-Project-Template::@6890427a1f51a3e7e1df",

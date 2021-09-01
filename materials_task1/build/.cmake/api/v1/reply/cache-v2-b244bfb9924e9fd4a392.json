@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/build"
+			"value" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -711,7 +711,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/niklas/Desktop/LearnOpenGL/materials_task1"
+			"value" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1695,7 +1695,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/build/lib/glfw"
+			"value" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/build/lib/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1755,7 +1755,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/lib/glfw"
+			"value" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/lib/glfw"
 		},
 		{
 			"name" : "GLFW_USE_OSMESA",
@@ -1819,7 +1819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/build"
+			"value" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/build"
 		},
 		{
 			"name" : "OpenGL-Project-Template_SOURCE_DIR",
@@ -1831,7 +1831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/niklas/Desktop/LearnOpenGL/materials_task1"
+			"value" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1"
 		},
 		{
 			"name" : "PKG_CONFIG_EXECUTABLE",

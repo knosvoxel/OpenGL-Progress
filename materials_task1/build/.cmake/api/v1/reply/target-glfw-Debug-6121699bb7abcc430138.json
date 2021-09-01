@@ -94,15 +94,15 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/lib/glfw/include"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/lib/glfw/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/lib/glfw/src"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/lib/glfw/src"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/build/lib/glfw/src"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/build/lib/glfw/src"
 				}
 			],
 			"language" : "C",
@@ -151,15 +151,15 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/lib/glfw/include"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/lib/glfw/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/lib/glfw/src"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/lib/glfw/src"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/niklas/Desktop/LearnOpenGL/materials_task1/build/lib/glfw/src"
+					"path" : "/home/niklas/Desktop/OpenGL-Progress/materials_task1/build/lib/glfw/src"
 				}
 			],
 			"language" : "C",
