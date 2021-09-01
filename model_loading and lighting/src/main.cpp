@@ -47,6 +47,7 @@ float lastFrame = 0.0f;
 glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 
 bool escapePressed = false;
+bool vsyncOn = false;
 
 int main()
 {
@@ -78,7 +79,6 @@ int main()
 
     // tell GLFW to capture our mouse
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-    glfwSwapInterval(0);
 
     // tell stb_image.h to flip loaded textures on the y-axis (before loading the model)
     stbi_set_flip_vertically_on_load(true);
@@ -107,6 +107,11 @@ int main()
     bool show_demo_window = false;
     bool show_another_window = false;
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
+
+    ImVec4 dirAmbient = ImVec4(0.05f, 0.05f, 0.05f, 1.00f);
+    ImVec4 dirDiffuse = ImVec4(0.4f, 0.4f, 0.4f, 1.00f);
+    ImVec4 dirSpecular = ImVec4(0.5f, 0.5f, 0.5f, 1.00f);
+    ImVec4 dirDirection = ImVec4(-0.2f, -1.0f, -0.3f, 1.00f);
 
     // build and compile our shader zprogram
     // ------------------------------------
@@ -180,8 +185,8 @@ float vertices[] = {
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float),(void*)0);
     glEnableVertexAttribArray(0);
 
-    //static float framesPerSeconds = 0.0f;
-    //static float lastTime = 0.0f;
+    static float framesPerSeconds = 0.0f;
+    static float lastTime = 0.0f;
     //CubeLights cubeLights;
     //cubeLights.addLight(pointLightPositions[0]);
 
@@ -195,7 +200,7 @@ float vertices[] = {
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
 
-        /*++framesPerSeconds;
+        ++framesPerSeconds;
 
         if(currentFrame - lastTime > 1.0f)
         {
@@ -203,7 +208,16 @@ float vertices[] = {
             std::cout << int(framesPerSeconds) << std::endl;
 
             framesPerSeconds = 0;
-        }*/
+        }
+
+        if(vsyncOn)
+        {
+            glfwSwapInterval(0);
+        }
+        else
+        {
+            glfwSwapInterval(1);
+        }
 
         // input
         // -----
@@ -218,7 +232,7 @@ float vertices[] = {
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
 
-        if(show_demo_window)
+        /*if(show_demo_window)
             ImGui::ShowDemoWindow(&show_demo_window);
 
                 {
@@ -241,26 +255,37 @@ float vertices[] = {
 
             ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 1000.0f / ImGui::GetIO().Framerate, ImGui::GetIO().Framerate);
             ImGui::End();
-        }
+        }*/
 
-        if (show_another_window)
+        ImGui::Begin("Directional Light");
+        
+        ImGui::DragFloat3("Direction", (float*)&dirDirection);
+        ImGui::ColorEdit3("Ambient", (float*)&dirAmbient);  
+        ImGui::ColorEdit3("Diffuse", (float*)&dirDiffuse);  
+        ImGui::ColorEdit3("Specular", (float*)&dirSpecular);   
+
+        ImGui::Checkbox("VSync", &vsyncOn);
+        ImGui::End();
+
+
+        /*if (show_another_window)
         {
             ImGui::Begin("Another Window", &show_another_window);   // Pass a pointer to our bool variable (the window will have a closing button that will clear the bool when clicked)
             ImGui::Text("Hello from another window!");
             if (ImGui::Button("Close Me"))
                 show_another_window = false;
             ImGui::End();
-        }
+        }*/
 
         // be sure to activate shader when setting uniforms/drawing objects
         lightingShader.use();
         lightingShader.setVec3("viewPos", camera.Position);
 
         // directional light
-        lightingShader.setVec3("dirLight.direction", -0.2f, -1.0f, -0.3f);
-        lightingShader.setVec3("dirLight.ambient", 0.05f, 0.05f, 0.05f);
-        lightingShader.setVec3("dirLight.diffuse", 0.4f, 0.4f, 0.4f);
-        lightingShader.setVec3("dirLight.specular", 0.5f, 0.5f, 0.5f);
+        lightingShader.setVec3("dirLight.direction", dirDirection.x, dirDirection.y, dirDirection.z);
+        lightingShader.setVec3("dirLight.ambient", dirAmbient.x, dirAmbient.y, dirAmbient.z);
+        lightingShader.setVec3("dirLight.diffuse", dirDiffuse.x, dirDiffuse.y, dirDiffuse.z);
+        lightingShader.setVec3("dirLight.specular", dirSpecular.x, dirSpecular.y, dirSpecular.z);
         // point light 1
         lightingShader.setVec3("pointLights[0].position", pointLightPositions[0]);
         lightingShader.setVec3("pointLights[0].ambient", 0.05f, 0.05f, 0.05f);
