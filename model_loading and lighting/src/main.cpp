@@ -48,6 +48,7 @@ glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 
 bool escapePressed = false;
 bool vsyncOn = false;
+bool spotLightOn = false;
 
 int main()
 {
@@ -106,6 +107,7 @@ int main()
 
     bool show_demo_window = false;
     bool show_another_window = false;
+
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 
     ImVec4 dirAmbient = ImVec4(0.05f, 0.05f, 0.05f, 1.00f);
@@ -279,7 +281,6 @@ float vertices[] = {
         ImGui::ColorEdit3("Spot Ambient", (float*)&spotAmbient);  
         ImGui::ColorEdit3("Spot Diffuse", (float*)&spotDiffuse);  
         ImGui::ColorEdit3("Spot Specular", (float*)&spotSpecular);   
-
         ImGui::InputFloat("Linear", &spotLinear);
         ImGui::InputFloat("Quadratic", &spotQuadratic);
         ImGui::InputFloat("Cutoff", &spotCutOff);
@@ -351,8 +352,16 @@ float vertices[] = {
         lightingShader.setFloat("spotLight.constant", 1.0f);
         lightingShader.setFloat("spotLight.linear", spotLinear);
         lightingShader.setFloat("spotLight.quadratic", spotQuadratic);
-        lightingShader.setFloat("spotLight.cutOff", glm::cos(glm::radians(spotCutOff)));
-        lightingShader.setFloat("spotLight.outerCutOff", glm::cos(glm::radians(spotOuterCutOff))); 
+        if(spotLightOn)
+        {
+            lightingShader.setFloat("spotLight.cutOff", glm::cos(glm::radians(spotCutOff)));
+            lightingShader.setFloat("spotLight.outerCutOff", glm::cos(glm::radians(spotOuterCutOff))); 
+        }
+        else
+        {
+            lightingShader.setFloat("spotLight.cutOff", glm::cos(glm::radians(0.0f)));
+            lightingShader.setFloat("spotLight.outerCutOff", glm::cos(glm::radians(0.0f))); 
+        }
 
 
         // material properties
@@ -458,7 +467,8 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
 
 void keyboard_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
-        if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS){
+        if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+        {
         //glfwSetWindowShouldClose(window, true);
             if(!escapePressed)
             {
@@ -471,6 +481,18 @@ void keyboard_callback(GLFWwindow* window, int key, int scancode, int action, in
                 escapePressed = false;
             }
         
+        }
+
+        if (key == GLFW_KEY_F && action == GLFW_PRESS)
+        {
+            if(spotLightOn)
+            {
+                spotLightOn = false;
+            }
+            else
+            {
+                spotLightOn = true;
+            }
         }
 }
 
