@@ -113,6 +113,15 @@ int main()
     ImVec4 dirSpecular = ImVec4(0.5f, 0.5f, 0.5f, 1.00f);
     ImVec4 dirDirection = ImVec4(-0.2f, -1.0f, -0.3f, 1.00f);
 
+    ImVec4 spotAmbient = ImVec4(0.0f, 0.0f, 0.0f, 1.00f);
+    ImVec4 spotDiffuse = ImVec4(1.0f, 1.0f, 1.0f, 1.00f);
+    ImVec4 spotSpecular = ImVec4(1.0f, 1.0f, 1.0f, 1.00f);
+
+    float spotLinear = 0.09f;
+    float spotQuadratic = 0.032f;
+    float spotCutOff = 12.5f;
+    float spotOuterCutOff = 15.0f;
+
     // build and compile our shader zprogram
     // ------------------------------------
     Shader lightingShader("../shaders/learnopengl/lighting.vs", "../shaders/learnopengl/lighting.fs");
@@ -185,8 +194,8 @@ float vertices[] = {
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float),(void*)0);
     glEnableVertexAttribArray(0);
 
-    static float framesPerSeconds = 0.0f;
-    static float lastTime = 0.0f;
+    /*static float framesPerSeconds = 0.0f;
+    static float lastTime = 0.0f;*/
     //CubeLights cubeLights;
     //cubeLights.addLight(pointLightPositions[0]);
 
@@ -199,7 +208,8 @@ float vertices[] = {
         float currentFrame = glfwGetTime();
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
-
+        
+        /*
         ++framesPerSeconds;
 
         if(currentFrame - lastTime > 1.0f)
@@ -208,7 +218,7 @@ float vertices[] = {
             std::cout << int(framesPerSeconds) << std::endl;
 
             framesPerSeconds = 0;
-        }
+        }*/
 
         if(vsyncOn)
         {
@@ -257,13 +267,25 @@ float vertices[] = {
             ImGui::End();
         }*/
 
-        ImGui::Begin("Directional Light");
+        ImGui::Begin("Lights");
         
+        ImGui::Text("Directional Light");
         ImGui::DragFloat3("Direction", (float*)&dirDirection);
-        ImGui::ColorEdit3("Ambient", (float*)&dirAmbient);  
-        ImGui::ColorEdit3("Diffuse", (float*)&dirDiffuse);  
-        ImGui::ColorEdit3("Specular", (float*)&dirSpecular);   
+        ImGui::ColorEdit3("Dir Ambient", (float*)&dirAmbient);  
+        ImGui::ColorEdit3("Dir Diffuse", (float*)&dirDiffuse);  
+        ImGui::ColorEdit3("Dir Specular", (float*)&dirSpecular);   
 
+        ImGui::Text("Spot Light");
+        ImGui::ColorEdit3("Spot Ambient", (float*)&spotAmbient);  
+        ImGui::ColorEdit3("Spot Diffuse", (float*)&spotDiffuse);  
+        ImGui::ColorEdit3("Spot Specular", (float*)&spotSpecular);   
+
+        ImGui::InputFloat("Linear", &spotLinear);
+        ImGui::InputFloat("Quadratic", &spotQuadratic);
+        ImGui::InputFloat("Cutoff", &spotCutOff);
+        ImGui::InputFloat("Outer Cutoff", &spotOuterCutOff);
+
+        ImGui::Text("VSync");
         ImGui::Checkbox("VSync", &vsyncOn);
         ImGui::End();
 
@@ -322,14 +344,15 @@ float vertices[] = {
         // spotLight
         lightingShader.setVec3("spotLight.position", camera.Position);
         lightingShader.setVec3("spotLight.direction", camera.Front);
-        lightingShader.setVec3("spotLight.ambient", 0.0f, 0.0f, 0.0f);
-        lightingShader.setVec3("spotLight.diffuse", 1.0f, 1.0f, 1.0f);
-        lightingShader.setVec3("spotLight.specular", 1.0f, 1.0f, 1.0f);
+        lightingShader.setVec3("spotLight.ambient", spotAmbient.x, spotAmbient.y, spotAmbient.z);
+        lightingShader.setVec3("spotLight.diffuse", spotDiffuse.x, spotDiffuse.y, spotDiffuse.z);
+        lightingShader.setVec3("spotLight.specular", spotSpecular.x, spotSpecular.y, spotSpecular.z);
+
         lightingShader.setFloat("spotLight.constant", 1.0f);
-        lightingShader.setFloat("spotLight.linear", 0.09);
-        lightingShader.setFloat("spotLight.quadratic", 0.032);
-        lightingShader.setFloat("spotLight.cutOff", glm::cos(glm::radians(12.5f)));
-        lightingShader.setFloat("spotLight.outerCutOff", glm::cos(glm::radians(15.0f))); 
+        lightingShader.setFloat("spotLight.linear", spotLinear);
+        lightingShader.setFloat("spotLight.quadratic", spotQuadratic);
+        lightingShader.setFloat("spotLight.cutOff", glm::cos(glm::radians(spotCutOff)));
+        lightingShader.setFloat("spotLight.outerCutOff", glm::cos(glm::radians(spotOuterCutOff))); 
 
 
         // material properties
