@@ -25,6 +25,7 @@
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
+void keyboard_callback(GLFWwindow* window, int key, int scancode, int action, int mods);
 void processInput(GLFWwindow *window);
 unsigned int loadTexture(char const* path);
 
@@ -73,10 +74,11 @@ int main()
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glfwSetCursorPosCallback(window, mouse_callback);
     glfwSetScrollCallback(window, scroll_callback);
+    glfwSetKeyCallback(window, keyboard_callback);
 
     // tell GLFW to capture our mouse
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-    //glfwSwapInterval(0);
+    glfwSwapInterval(0);
 
     // tell stb_image.h to flip loaded textures on the y-axis (before loading the model)
     stbi_set_flip_vertically_on_load(true);
@@ -102,8 +104,8 @@ int main()
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init("#version 330");
 
-    bool show_demo_window = true;
-    bool show_another_window = true;
+    bool show_demo_window = false;
+    bool show_another_window = false;
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 
     // build and compile our shader zprogram
@@ -193,9 +195,9 @@ float vertices[] = {
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
 
-        //++framesPerSeconds;
+        /*++framesPerSeconds;
 
-        /*if(currentFrame - lastTime > 1.0f)
+        if(currentFrame - lastTime > 1.0f)
         {
             lastTime = currentFrame;
             std::cout << int(framesPerSeconds) << std::endl;
@@ -357,18 +359,6 @@ float vertices[] = {
 // ---------------------------------------------------------------------------------------------------------
 void processInput(GLFWwindow *window)
 {
-    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-        //glfwSetWindowShouldClose(window, true);
-        if(!escapePressed)
-        {
-            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
-            escapePressed = true;
-        }
-        else
-        {
-            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-            escapePressed = false;
-        }
 
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
         camera.ProcessKeyboard(FORWARD, deltaTime);
@@ -407,7 +397,8 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos)
     lastX = xpos;
     lastY = ypos;
 
-    camera.ProcessMouseMovement(xoffset, yoffset);
+    if(escapePressed == false)
+        camera.ProcessMouseMovement(xoffset, yoffset);
 }
 
 // glfw: whenever the mouse scroll wheel scrolls, this callback is called
@@ -415,6 +406,24 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos)
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
 {
     camera.ProcessMouseScroll(yoffset);
+}
+
+void keyboard_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
+        if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS){
+        //glfwSetWindowShouldClose(window, true);
+            if(!escapePressed)
+            {
+                glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+                escapePressed = true;
+            }
+            else
+            {
+                glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+                escapePressed = false;
+            }
+        
+        }
 }
 
 // utility function for loading a 2D texture from file
