@@ -280,7 +280,7 @@ float vertices[] = {
         ImGui::Begin("Lights");
         
         ImGui::Text("Directional Light");
-        ImGui::DragFloat3("Direction", (float*)&dirDirection);
+        ImGui::DragFloat3("Direction", (float*)&dirDirection, 0.01f);
         ImGui::ColorEdit3("Dir Ambient", (float*)&dirAmbient);  
         ImGui::ColorEdit3("Dir Diffuse", (float*)&dirDiffuse);  
         ImGui::ColorEdit3("Dir Specular", (float*)&dirSpecular);   
