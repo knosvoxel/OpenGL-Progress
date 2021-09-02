@@ -1,9 +1,0 @@
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/CMakeFiles/rebuild_cache.dir
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/CMakeFiles/edit_cache.dir
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/CMakeFiles/glad.dir
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/CMakeFiles/OpenGL-Project-Template.dir
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/lib/glfw/CMakeFiles/rebuild_cache.dir
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/lib/glfw/CMakeFiles/edit_cache.dir
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/lib/glfw/src/CMakeFiles/rebuild_cache.dir
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/lib/glfw/src/CMakeFiles/edit_cache.dir
-/home/niklas/Desktop/LearnOpenGL/light_casters_spotlight/build/lib/glfw/src/CMakeFiles/glfw.dir

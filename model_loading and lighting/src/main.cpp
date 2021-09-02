@@ -115,10 +115,18 @@ int main()
     ImVec4 dirSpecular = ImVec4(0.5f, 0.5f, 0.5f, 1.00f);
     ImVec4 dirDirection = ImVec4(-0.2f, -1.0f, -0.3f, 1.00f);
 
+    ImVec4 lightCubeColor = ImVec4(1.0f, 1.0f, 1.0f, 1.0f);
+    ImVec4 pointAmbient = ImVec4(0.05f, 0.05f, 0.05f, 1.00f);
+    ImVec4 pointDiffuse = ImVec4(0.8f, 0.8f, 0.8f, 1.00f);
+    ImVec4 pointSpecular = ImVec4(1.0f, 1.0f, 1.0f, 1.00f);
+    float pointAmbientValue = 0.2f;
+    float pointDiffuseValue = 0.5f;
+    float pointLinear = 0.09f;
+    float pointQuadratic = 0.032f;
+
     ImVec4 spotAmbient = ImVec4(0.0f, 0.0f, 0.0f, 1.00f);
     ImVec4 spotDiffuse = ImVec4(1.0f, 1.0f, 1.0f, 1.00f);
     ImVec4 spotSpecular = ImVec4(1.0f, 1.0f, 1.0f, 1.00f);
-
     float spotLinear = 0.09f;
     float spotQuadratic = 0.032f;
     float spotCutOff = 12.5f;
@@ -277,19 +285,43 @@ float vertices[] = {
         ImGui::ColorEdit3("Dir Diffuse", (float*)&dirDiffuse);  
         ImGui::ColorEdit3("Dir Specular", (float*)&dirSpecular);   
 
-        ImGui::Text("Spot Light");
+        ImGui::Text("Point Lights");
+        ImGui::ColorEdit3("Point Light Color", (float*)&lightCubeColor);
+        ImGui::DragFloat("Point Ambient", (float*)&pointAmbientValue, 0.001f);
+        if(pointAmbientValue > 1.0f)
+            pointAmbientValue = 1.0f;
+        if(pointAmbientValue < 0.0f)
+            pointAmbientValue = 0.0f;
+        ImGui::DragFloat("Point Diffuse", (float*)&pointDiffuseValue, 0.001f);  
+        if(pointDiffuseValue > 1.0f)
+            pointDiffuseValue = 1.0f;
+        if(pointDiffuseValue < 0.0f)
+            pointDiffuseValue = 0.0f;
+        ImGui::ColorEdit3("Point Specular", (float*)&pointSpecular);   
+        ImGui::InputFloat("Point Linear", &pointLinear);
+        ImGui::InputFloat("Point Quadratic", &pointQuadratic);
+
+        ImGui::Text("Spotlight");
         ImGui::ColorEdit3("Spot Ambient", (float*)&spotAmbient);  
         ImGui::ColorEdit3("Spot Diffuse", (float*)&spotDiffuse);  
         ImGui::ColorEdit3("Spot Specular", (float*)&spotSpecular);   
-        ImGui::InputFloat("Linear", &spotLinear);
-        ImGui::InputFloat("Quadratic", &spotQuadratic);
+        ImGui::InputFloat("Spot Linear", &spotLinear);
+        ImGui::InputFloat("Spot Quadratic", &spotQuadratic);
         ImGui::InputFloat("Cutoff", &spotCutOff);
         ImGui::InputFloat("Outer Cutoff", &spotOuterCutOff);
+        ImGui::Checkbox("Spotlight Active", &spotLightOn);
 
         ImGui::Text("VSync");
         ImGui::Checkbox("VSync", &vsyncOn);
         ImGui::End();
 
+        pointDiffuse.x = lightCubeColor.x * pointDiffuseValue;
+        pointDiffuse.y = lightCubeColor.y * pointDiffuseValue;
+        pointDiffuse.z = lightCubeColor.z * pointDiffuseValue;
+
+        pointAmbient.x = pointDiffuse.x * pointAmbientValue;
+        pointAmbient.y = pointDiffuse.y * pointAmbientValue;
+        pointAmbient.z = pointDiffuse.z * pointAmbientValue;
 
         /*if (show_another_window)
         {
@@ -311,36 +343,36 @@ float vertices[] = {
         lightingShader.setVec3("dirLight.specular", dirSpecular.x, dirSpecular.y, dirSpecular.z);
         // point light 1
         lightingShader.setVec3("pointLights[0].position", pointLightPositions[0]);
-        lightingShader.setVec3("pointLights[0].ambient", 0.05f, 0.05f, 0.05f);
-        lightingShader.setVec3("pointLights[0].diffuse", 0.8f, 0.8f, 0.8f);
-        lightingShader.setVec3("pointLights[0].specular", 1.0f, 1.0f, 1.0f);
+        lightingShader.setVec3("pointLights[0].ambient", pointAmbient.x, pointAmbient.y, pointAmbient.z);
+        lightingShader.setVec3("pointLights[0].diffuse", pointDiffuse.x, pointDiffuse.y, pointDiffuse.z);
+        lightingShader.setVec3("pointLights[0].specular", pointSpecular.x, pointSpecular.y, pointSpecular.z);
         lightingShader.setFloat("pointLights[0].constant", 1.0f);
-        lightingShader.setFloat("pointLights[0].linear", 0.09);
-        lightingShader.setFloat("pointLights[0].quadratic", 0.032);
+        lightingShader.setFloat("pointLights[0].linear", pointLinear);
+        lightingShader.setFloat("pointLights[0].quadratic", pointQuadratic);
         // point light 2
         lightingShader.setVec3("pointLights[1].position", pointLightPositions[1]);
-        lightingShader.setVec3("pointLights[1].ambient", 0.05f, 0.05f, 0.05f);
-        lightingShader.setVec3("pointLights[1].diffuse", 0.8f, 0.8f, 0.8f);
-        lightingShader.setVec3("pointLights[1].specular", 1.0f, 1.0f, 1.0f);
+        lightingShader.setVec3("pointLights[1].ambient", pointAmbient.x, pointAmbient.y, pointAmbient.z);
+        lightingShader.setVec3("pointLights[1].diffuse", pointDiffuse.x, pointDiffuse.y, pointDiffuse.z);
+        lightingShader.setVec3("pointLights[1].specular", pointSpecular.x, pointSpecular.y, pointSpecular.z);
         lightingShader.setFloat("pointLights[1].constant", 1.0f);
-        lightingShader.setFloat("pointLights[1].linear", 0.09);
-        lightingShader.setFloat("pointLights[1].quadratic", 0.032);
+        lightingShader.setFloat("pointLights[1].linear", pointLinear);
+        lightingShader.setFloat("pointLights[1].quadratic", pointQuadratic);
         // point light 3
         lightingShader.setVec3("pointLights[2].position", pointLightPositions[2]);
-        lightingShader.setVec3("pointLights[2].ambient", 0.05f, 0.05f, 0.05f);
-        lightingShader.setVec3("pointLights[2].diffuse", 0.8f, 0.8f, 0.8f);
-        lightingShader.setVec3("pointLights[2].specular", 1.0f, 1.0f, 1.0f);
+        lightingShader.setVec3("pointLights[2].ambient", pointAmbient.x, pointAmbient.y, pointAmbient.z);
+        lightingShader.setVec3("pointLights[2].diffuse", pointDiffuse.x, pointDiffuse.y, pointDiffuse.z);
+        lightingShader.setVec3("pointLights[2].specular", pointSpecular.x, pointSpecular.y, pointSpecular.z);
         lightingShader.setFloat("pointLights[2].constant", 1.0f);
-        lightingShader.setFloat("pointLights[2].linear", 0.09);
-        lightingShader.setFloat("pointLights[2].quadratic", 0.032);
+        lightingShader.setFloat("pointLights[2].linear", pointLinear);
+        lightingShader.setFloat("pointLights[2].quadratic", pointQuadratic);
         // point light 4
         lightingShader.setVec3("pointLights[3].position", pointLightPositions[3]);
-        lightingShader.setVec3("pointLights[3].ambient", 0.05f, 0.05f, 0.05f);
-        lightingShader.setVec3("pointLights[3].diffuse", 0.8f, 0.8f, 0.8f);
-        lightingShader.setVec3("pointLights[3].specular", 1.0f, 1.0f, 1.0f);
+        lightingShader.setVec3("pointLights[3].ambient", pointAmbient.x, pointAmbient.y, pointAmbient.z);
+        lightingShader.setVec3("pointLights[3].diffuse", pointDiffuse.x, pointDiffuse.y, pointDiffuse.z);
+        lightingShader.setVec3("pointLights[3].specular", pointSpecular.x, pointSpecular.y, pointSpecular.z);
         lightingShader.setFloat("pointLights[3].constant", 1.0f);
-        lightingShader.setFloat("pointLights[3].linear", 0.09);
-        lightingShader.setFloat("pointLights[3].quadratic", 0.032);
+        lightingShader.setFloat("pointLights[3].linear", pointLinear);
+        lightingShader.setFloat("pointLights[3].quadratic", pointQuadratic);
         //cubeLights.setLightValues(0, lightingShader);
         // spotLight
         lightingShader.setVec3("spotLight.position", camera.Position);
@@ -384,6 +416,7 @@ float vertices[] = {
         lightCubeShader.use();
         lightCubeShader.setMat4("projection", projection);
         lightCubeShader.setMat4("view", view);
+        lightCubeShader.setVec3("lightCubeColor", lightCubeColor.x, lightCubeColor.y, lightCubeColor.z);
 
         glBindVertexArray(lightCubeVAO);
 

@@ -1,9 +1,0 @@
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/rebuild_cache.dir
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/edit_cache.dir
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/glad.dir
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/CMakeFiles/OpenGL-Project-Template.dir
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/CMakeFiles/rebuild_cache.dir
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/CMakeFiles/edit_cache.dir
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/src/CMakeFiles/rebuild_cache.dir
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/src/CMakeFiles/edit_cache.dir
-/home/niklas/Desktop/OpenGL-Progress/multiple_lights/build/lib/glfw/src/CMakeFiles/glfw.dir
